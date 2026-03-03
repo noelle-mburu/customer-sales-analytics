@@ -74,6 +74,7 @@ for filename, table_name in csv_files.items():
     df.to_sql(
         name=table_name,        # name of the table in PostgreSQL
         con=engine,             # the connection we created above
+        schema="olist",         # the olist schema in the database
         if_exists="replace",    # replace table if it already exists
         index=False             # don't write the pandas row numbers as a column
     )
