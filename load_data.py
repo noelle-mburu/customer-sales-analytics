@@ -28,14 +28,13 @@ connection_string = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{
 engine = create_engine(connection_string)
 
 # ── Folder path ───────────────────────────────────────────────────────────────
-# This is where your CSV files are saved.
 DATA_FOLDER = r"D:\LuxDev\github_projects\customer-sales-analytics\files"  # raw string (r"") allows backslashes without needing to escape them
 
 # ── CSV files to load ─────────────────────────────────────────────────────────
 # This is a dictionary that maps:
 # - the CSV filename (file names on your computer)
 # - to the table name (what it will be called in PostgreSQL)
-# Using short, clean table names makes SQL queries easier to write later
+# Using short, clean table names makes SQL queries easier to write
 csv_files = {
     "olist_customers_dataset.csv": "customers",
     "olist_orders_dataset.csv": "orders",
