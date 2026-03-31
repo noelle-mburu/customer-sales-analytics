@@ -12,6 +12,13 @@ A business intelligence project analysing the Olist Brazilian E-Commerce dataset
 - Wrote SQL queries to extract insights across revenue, customers, sellers, delivery, and customer satisfaction
 - Built an interactive Power BI dashboard connected directly to the database, featuring KPI summary cards and a date slicer
 
+## Tools Used
+
+- PostgreSQL for data storage and SQL analysis
+- DBeaver as the SQL client
+- Python and SQLAlchemy for loading the CSV data into PostgreSQL
+- Power BI for dashboard visualisation
+
 ## Key Findings
 
 - Total revenue across the period was R$16.01M across 99,441 orders
@@ -33,13 +40,6 @@ A business intelligence project analysing the Olist Brazilian E-Commerce dataset
 ## Conclusion
 
 This project demonstrates how raw transactional data can be transformed into actionable business intelligence. By combining SQL for data analysis with Power BI for visualisation, the dashboard gives business stakeholders a clear view of performance across revenue, geography, logistics, and customer satisfaction, enabling faster and more informed decision making.
-
-## Tools Used
-
-- PostgreSQL for data storage and SQL analysis
-- DBeaver as the SQL client
-- Python and SQLAlchemy for loading the CSV data into PostgreSQL
-- Power BI for dashboard visualisation
 
 ## Let's Connect!
 
